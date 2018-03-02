@@ -7,12 +7,12 @@ html,body,page{
 
 page {
     height: 100%;
-    font-size: 100px;
+    font-size: 300px;
     position: absolute;
     /*padding-top: 30%;
     padding-left: 40%;*/
     text-align: center;
-    padding-top: 30%;
+    padding-top: 45%;
 
 }
 
@@ -41,7 +41,7 @@ page {
     color: white;
 }
 #z{
-font-size: 36px;
+font-size: 80px;
     display: block;
     animation: z 10s infinite;
 }
