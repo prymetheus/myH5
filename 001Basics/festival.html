@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>老弟，要姐姐天天开心</title>
+    <link type="text/css" href="./css/festival.css" rel="stylesheet">
+    <script>
+        /*为了微信中可以播放*/
+        function audioAutoPlay(id){
+            var audio = document.getElementById(id);
+            audio.play();
+            document.addEventListener("WeixinJSBridgeReady", function () {
+                audio.play();
+            }, false);
+            document.addEventListener('YixinJSBridgeReady', function() {
+                audio.play();
+            }, false);
+        }
+    </script>
+</head>
+<body onload="audioAutoPlay('bgm');">
+<audio id="bgm" src="wav/520.mp3" preload="auto" autoplay="autoplay"></audio>
+<page id="c">熊</page>
+<page id="x">抱</page>
+<page id="q">老</page>
+<page id="d">姐<span id="z">祝姐姐元宵节快乐！</span></page>
+</body>
+</html>
