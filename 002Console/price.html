@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        a=9;
+        var price=10,count;
+        count=prompt("你要多少杯")
+        /*if(count%2==0){
+            totalPrice=count*7.5;
+        }else {
+            totalPrice=(count+1)*7.5-5;
+        }
+        alert("您总共消费了"+totalPrice+"yuan"+a)*/
+        function isInteger(obj) {
+            return obj%1===0;
+        }
+        if (isNaN(count)){
+            alert("is not num")
+        }
+        if (isInteger(count)){
+            alert("is Integer")
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
